@@ -1,2 +1,3 @@
-# ServerlessCQRSCSharp
-This contains an example of Serverless CQRS using C# for our workshops
+# AzureServerlessCQRS
+
+An Adaptech workshop containing examples using the hotel reservation system.
