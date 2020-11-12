@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "e525b485-c06f-4d2f-ae96-be824f49f4c2",
+		"name": "CSharp Workshop Calls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:7071/api/reservation/make",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{id:\"7feda51d-785f-4a3d-9d0c-09bc41764706\",hotelId:\"83d5c0d5-08e3-447b-935c-c2c9253b7674\",roomType:\"Queen\"}"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/reservation/make",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"reservation",
+						"make"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7071/api/reservation/83d5c0d5-08e3-447b-935c-c2c9253b7674/7feda51d-785f-4a3d-9d0c-09bc41764706",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/reservation/83d5c0d5-08e3-447b-935c-c2c9253b7674/7feda51d-785f-4a3d-9d0c-09bc41764706",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"reservation",
+						"83d5c0d5-08e3-447b-935c-c2c9253b7674",
+						"7feda51d-785f-4a3d-9d0c-09bc41764706"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "bb10c76c-4396-4bd9-906d-064e485cba20",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3a133cd7-1724-4e03-bb44-af5cad13887e",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
