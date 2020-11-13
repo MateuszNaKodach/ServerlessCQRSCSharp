@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "HOTEL_MANAGEMENT_SERVICEBUS": "",
+    "RESERVATIONS_EVENTS_TOPIC_NAME": "reservation-events-topic",
+    "EVENTSTORE_CONNECTION_STRING": "ConnectTo=tcp://127.0.0.1:1113;DefaultUserCredentials=admin:changeit;HeartbeatInterval=1000;HeartbeatTimeout=5000",
+    "ReservationsDatabaseName": "reservations.db",
+    "Repository": "Sqlite"
+  }
+}
